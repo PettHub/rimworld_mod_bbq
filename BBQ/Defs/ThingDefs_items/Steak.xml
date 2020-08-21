@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="MealCooked">
+    <defName>MealSteak</defName>
+    <label>steak</label>
+    <description>A masterpiece of the culinary arts, this meal nourishes the body, mind, and soul.(intentional copy-pasta)</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Steak</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>400</WorkToMake>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <stackLimit>100</stackLimit>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+</Defs>

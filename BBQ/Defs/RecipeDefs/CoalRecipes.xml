@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+    <defName>Make_CharcoalFromWood</defName>
+    <label>make charcoal from wood</label>
+    <description>Make a batch of charcoal by extracting moisture and pyrolysing wood logs.</description>
+    <jobString>Refining charcoal from wood.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Charcoal>40</Charcoal>
+      <Chemfuel>10</Chemfuel>
+    </products>
+  </RecipeDef>
+</Defs>
